@@ -30,14 +30,14 @@ print('\033[0;35m   _________________________________________________           
 oo = input('Seçimini Yap Keke:  ')
 
 if oo == '1':
-	print ("YÜKLENİYOR ")
-	os.system("cd $HOME")
-	os.system("pkg install git -y")
+	import webbrowser
+	
 	webbrowser.open("https://www.mediafire.com/folder/m4o4enc7ne1xk/Tools")
 	
 	##PHİSHİNG 2 İNSTALL
 elif oo == '2':
-	os.system("cd $HOME")
+	import webbrowser
+	
 	webbrowser.open("https://www.mediafire.com/folder/rqzpgaiagi72f/Bots")
 
 elif oo == '3':
